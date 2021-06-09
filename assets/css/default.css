@@ -6,6 +6,63 @@ img {
 a { text-decoration: none; color: inherit; cursor: pointer; }
 strong { font-weight: 900; }
 
+.content-section {
+    padding: 5em;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+.content-image {
+    max-width: 50vw;
+}
+.content-section .content-text {
+    padding: 1em;
+}
+.content-section h1 {
+    font-size: 2em;
+}
+.content-section p {
+    margin-top: 1em;
+}
+
+section.alpha {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    font-size: 18px;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5em;
+}
+
+.nav-content a {
+    width: calc(100%/3);
+    padding: 3em;
+    font-size: 2em;
+    background-size: cover;
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
+a.bg-food {
+    background-image: url(../images/food-1.jpg);
+}
+a.bg-drinks {
+    background-image: url(../images/drinks-1.jpg);
+}
+a.bg-schedule {
+    background-image: url(../images/golden-badge-shield-with-gold-leaves_1017-30512.jpg);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -462,7 +519,6 @@ footer .social-media img{
     }
     .hero-main .expand-more{
         padding: 1em;
-        align-self: flex-start;
     }
 }
 
