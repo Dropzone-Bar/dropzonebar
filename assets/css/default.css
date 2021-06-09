@@ -25,7 +25,6 @@ header {
     flex-direction: column;
     background-color: #000;
     background-size: cover;
-    min-height: 80vh;
 }
 
 header .svg-logo{
@@ -54,9 +53,13 @@ header .nav-main .nav-item.active span, header .nav-main .nav-item:hover span {
     display: flex;
     flex-direction: column;
     margin-top: auto;
-    align-items: baseline;
     padding: 5em;
+    align-items: center;
 }
+
+.hero-main .logo {
+    width: 50vw;
+}   
 
 .hero-main .hero-header {
     display: block;
@@ -65,7 +68,7 @@ header .nav-main .nav-item.active span, header .nav-main .nav-item:hover span {
     font-weight: 900;
     font-size: 4em;
     text-shadow: 0px 4px #000;
-    background: rgba(0,0,0,0.2)
+    background: rgba(0,0,0,0.2);
 }
 
 .hero-main .hero-text {
@@ -74,7 +77,7 @@ header .nav-main .nav-item.active span, header .nav-main .nav-item:hover span {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     font-size: 2em;
-    background: rgba(0,0,0,0.5)
+    background: rgba(0,0,0,0.2)
 }
 
 .hero-main .hero-call-to-action {
